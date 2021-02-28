@@ -4,7 +4,7 @@ body {
   line-height: 1;
 }
 
-textarea{
+#textarea{
   background: transparent;
   border: none;
   resize: none;
@@ -30,13 +30,14 @@ textarea{
   border-radius: 15px;
 }
 
-.row {
+.col {
   white-space: pre-wrap;
-  height: 80px;
+  height: 60px;
   border-top: 1px solid white;;
+  padding: 5px;
 }
 
-.hour {
+#time {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
@@ -57,7 +58,7 @@ textarea{
   color: white;
 }
 
-.saveBtn {
+#saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -65,7 +66,22 @@ textarea{
   color: white;
 }
 
-.saveBtn i:hover {
+#saveBtn:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+ 
+/* .col {
+  border-style: solid;
+  border-color: black;
+   
+}  */
+
+.container {
+  display: grid;
+  grid-template-columns: 50px 800px 100px;
+  grid-template-rows: 60px;
+ margin-left: 150px;
+}
+
+
