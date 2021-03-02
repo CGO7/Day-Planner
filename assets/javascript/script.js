@@ -38,7 +38,7 @@ colorChanger();
 // })
 
 var x = localStorage.getItem("value");
-document.querySelectorAll("col1"),innerHTML = x;
+document.getElementById("textarea"),innerHTML = x;
 
 $("button").on("click", function () {
     var value = $(this).prev().val();
